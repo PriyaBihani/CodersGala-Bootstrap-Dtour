@@ -1,0 +1,64 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 1rem 2rem !important;
+}
+
+.navbar .fa {
+    transform: rotate(-50deg);
+}
+
+.carousel-image-1 {
+    background: url('./img/image1.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url('./img/image2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url('./img/image3.jpg');
+    background-size: cover;
+}
+
+.carousel-item {
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+
+#home-icons .fa {
+    font-size: 54px;
+}
+
+#parallex-modal {
+    min-height: 25vh;
+    background: url('./img/lights.jpg');
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffff;
+}
+
+#lightboxModal .modal-content{
+    background: transparent;
+    border: none;
+}
+
+#lightboxModal .modal-header{
+    border: none;
+}
+
+#lightboxCarousel .carousel-item {
+    height: fit-content;
+}
